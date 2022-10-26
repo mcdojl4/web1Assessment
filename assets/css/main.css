@@ -1,9 +1,38 @@
- html {
-    margin: 0;
+ * {
+    box-sizing: border-box;
+ }
+body{
+    margin:0;
     background: black;
-    color: white;
+    color: white;   
     font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
 svg{
     fill: white;
+}
+
+#for_sale{
+    margin: 0 0 40px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #16211C;
+    border-bottom: 1px solid #a7aba9;
+}
+
+#for_sale h1{
+    font-size: 12px;
+    font-family: sans-serif;
+    padding: 15px 10px 15px 60px; 
+    margin: 0;
+}
+
+#header_section {
+    display: flex;
+}
+
+#header_section h1 {
+    font-size: 14px;
 }
