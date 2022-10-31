@@ -10,6 +10,7 @@ body{
 }
 svg{
     fill: white;
+
 }
 
 #for_sale{
@@ -24,15 +25,33 @@ svg{
 
 #for_sale h1{
     font-size: 12px;
-    font-family: sans-serif;
+    font-family: "Suisse BP Int'l";
     padding: 15px 10px 15px 60px; 
     margin: 0;
 }
 
 #header_section {
     display: flex;
+    padding: 10px 13% 20px 13%;
 }
 
 #header_section h1 {
-    font-size: 14px;
+    font-size: 16px;
+    margin-left: 44%;
 }
+
+#main_section {
+    border-bottom: 1px solid #a7aba9;
+    padding-bottom: 30px;
+}
+
+#main_section h1 {
+    padding-left: 49%;
+    padding-right: 25%;
+    font-size: 35px;
+}
+
+#main_section p {
+    padding-left: 13%;
+}
+
