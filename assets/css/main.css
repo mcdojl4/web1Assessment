@@ -284,6 +284,8 @@ a {
 
 #two_columns {
     display: flex;
+    border-bottom: 1px solid white;
+    margin: 2% 0 1% 0;
 }
 
 #two_columns img {
