@@ -13,6 +13,10 @@ svg{
 
 }
 
+a {
+    color: white;
+}
+
 #for_sale{
     margin: 0 0 40px 0;
     top: 0;
@@ -115,7 +119,6 @@ svg{
 }
 
 #shop_section #right_shop a {
-    color: white;
     padding-left: 8%;
     padding-top: 20%;
 }
@@ -182,7 +185,6 @@ svg{
 }
 
 #middle_section a {
-    color: white;
     font-size: 14px;
 }
 
@@ -201,7 +203,7 @@ svg{
     padding: 0 20% 0 20%;
 }
 
-#article_section #four_column{
+#brand_section #four_column{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% ;
     grid-template-rows: 60% 60%;
@@ -217,4 +219,51 @@ svg{
     /* margin-left: auto;
     margin-right: auto; */
     width: 70%;
+}
+
+#journal_div {
+    text-align: left;
+    padding: 0 40% 7% 21%;
+}
+
+#journal_div h1{
+    font-size: 12px;
+}
+
+#journal_div p {
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 1% 0;
+}
+
+#journal_div a {
+    font-size: 14px;
+    line-height: 0;
+}
+
+#one_column {
+    /* display: grid;
+    grid-template-rows: 17% 17% 17%; */
+    width: 58%;
+    margin: 0 auto;
+    /* padding-right: 10%; */
+    /* padding-right: 12%; */
+}
+
+.articles {
+    display: grid;
+    height: 20%;
+    grid-template-columns: 60% 40%;
+    /* padding-left: 20%; */
+}
+
+#article1 img {
+    height: 50%;
+    width: 100%;
+    padding-right: 5%;
+}
+
+#article2 img {
+    height: 50%;
+    width: 100%;
 }
