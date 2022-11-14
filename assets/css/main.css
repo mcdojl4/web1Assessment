@@ -418,25 +418,14 @@ button {
 }
 
 #filter_flex {
-    /* padding: 0 12%; */
+    padding: 0 25% 1% 9%;
     display: flex;
-    
+    border-bottom: 1px solid white;
 }
 
-#filter_flex h2 {
-    padding-left: 12%;
-}
-
-#filter_flex li {
+#filter_list li {
     list-style: none;
     display: inline-block;
+    margin-left: 20%;
 }
 
-#filter_flex ul {
-    
-}
-
-#filter_flex p {
-    font-size: 15px;
-    padding-left: 12%;
-}
