@@ -17,6 +17,13 @@ a {
     color: white;
 }
 
+button {
+    color: white;
+    border: none;
+    border: 0;
+    background-color: black;
+}
+
 #for_sale{
     margin: 0 0 40px 0;
     top: 0;
@@ -40,14 +47,28 @@ a {
     padding: 10px 13% 20px 13%;
 }
 
+#header_section i {
+    padding: 0 1% 0 1%;
+    font-size: 20px;
+} 
+
+#header_section #bars {
+    padding-left: 43%;
+    font-size: 25px;
+}
+
+#header_section #search {
+    padding-left: 43%;
+    font-size: 20px; 
+}
+
 #header_section h1 {
     font-size: 16px;
-    margin-left: 44%;
 }
 
 #header_section button {
     font-size: 16px;
-    margin-left: 44%;
+    margin-left: 1%;
     color: white;
     border: none;
     border: 0;
@@ -77,7 +98,8 @@ a {
 }
 
 #main_section img{
-    width: 75%;
+    max-width: 75%;
+    max-height: 933px;
 }
 
 #grid {
@@ -102,9 +124,14 @@ a {
     padding-bottom: 100px;
 }
 
+#shop_section i {
+    padding-left: 65%;
+}
+
 #shop_section #left_h1{
     margin: 0;
     padding: 10% 0 10% 30%;
+    display: flex;
 }
 
 #shop_section #right_h1{
@@ -128,7 +155,6 @@ a {
 }
 
 #shop_section h2 {
-    /* display: flex; */
     padding-left: 30%;
     white-space: nowrap;
 }
@@ -141,7 +167,6 @@ a {
 #shop_section #shop_flex {
     display: flex;
     overflow: hidden;
-    /* white-space: nowrap; */
 }
 
 #shop_grid {
@@ -162,11 +187,15 @@ a {
     padding-right: 5%;
 }
 
+#left_shop a {
+    text-align: center;
+}
+
 #quotes {
     display: grid;
     justify-content: center;
     grid-template-columns: 30% 30% 30% ;
-    height: 20%;
+    height: 30%;
     padding: 5% 0 10% 0;
 }
 
@@ -175,6 +204,10 @@ a {
     text-align: center;
     font-size: 10px;
     padding: 0 4%;
+}
+
+.quote i {
+    font-size: 25px;
 }
 
 #middle_section .three_columns {
@@ -256,7 +289,7 @@ a {
     padding-bottom: 12%;
 }
 
-#article1 img{
+#article1  img{
     max-width: 500px;
     margin-right: 3%;
 }
@@ -275,11 +308,12 @@ a {
     font-size: 22px;
 }
 
-.articles_text h2{
+.articles_text h2, p	{
     font-size: 13px;
 }
-.articles_text p{
-    font-size: 13px;
+
+.articles_text i {
+    padding-right: 2%;
 }
 
 #two_columns {
@@ -289,8 +323,8 @@ a {
 }
 
 #two_columns img {
-    max-width: 780px;
-    max-height: 570px;
+    max-width: 1080px;
+    max-height: 720px;
     margin: 0 2% 10% 1%;
 }
 
@@ -300,12 +334,22 @@ a {
 
 #location_section h1 {
     font-size: 20px;
+    width: 30%;
     margin-top: 0;
+}
+
+#h1_border h1 {
+    margin: 0 0 10px 0;
+    border-bottom: 1px solid white;
+}
+
+#location_section i {
+    padding-left: 29%;
 }
 
 #location_section h2 {
     font-size: 30px;
-    width: 50%;
+    width: 40%;
     line-height: 1.4;
 }
 
@@ -318,8 +362,81 @@ a {
     margin-bottom: 7%;
 }
 
+#footer_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5% 15%;
+}
+
+#footer_section p {
+    width: 95%;
+}
+
+#footer_section p, a, button {
+    font-size: 15px;
+}
+
+#footer_section button {
+    text-decoration: underline;
+}
+
+#footer_section ul a {
+    text-decoration: none;
+}
+
+#footer_section ul {
+    list-style: none;
+    line-height: 1.5;
+}
+
+#footer_section h1 {
+    padding: 5% 5%;
+}
+
+#footer_section i{
+    padding-right: 3%;
+}
+
+
 /* Shop css */
+
+
 
 #header_section_shop {
     border-bottom: 1px solid white;
+}
+
+#filter_section {
+    display: block;
+}
+
+#filter_section h1{
+    padding: 2% 12%;
+    font-size: 35px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#filter_flex {
+    /* padding: 0 12%; */
+    display: flex;
+    
+}
+
+#filter_flex h2 {
+    padding-left: 12%;
+}
+
+#filter_flex li {
+    list-style: none;
+    display: inline-block;
+}
+
+#filter_flex ul {
+    
+}
+
+#filter_flex p {
+    font-size: 15px;
+    padding-left: 12%;
 }

@@ -8,6 +8,8 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css" integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
@@ -16,7 +18,10 @@
         </header>
         <header id="header_section">
             <a  href="/index.html" > <img src="assets/img/aotea_logo.webp" viewBox="10 10 10 10" width="81px" height="25px"> </a>
+            <i class="fa-solid fa-bars"  id="bars" ></i>
             <button>Menu</button>
+            <i class="fa-solid fa-magnifying-glass" id="search"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
         </header>
         
         <section id="nav_section">
@@ -46,14 +51,13 @@
     <section id="shop_section">
         <div id ="shop_grid">
             <div id="left_shop">
-                <h1 href="/shop.html" id="left_h1">Latest Products</h1>
+                <h1 href="/shop.html" id="left_h1" >Latest Products<i class="fa-solid fa-arrow-right"></i></h1>
                 <img src = "assets/img/section2_photo1.jpg">
                 <div id="shop_flex"> 
                     <h2>THE COLLECTION</h2>
                     <p>We have a range of balms, oils, creams & masks for whatever you are after.</p>
                 </div>
-                <a href="/shop.html">SHOP FULL COLLECTION</a>
-                
+                <a href="/shop.html">SHOP FULL COLLECTION</a>  
             </div>
             <div  id="right_shop">
                 <h1  href="/shop.html" id="right_h1">Shop All</h1>
@@ -67,14 +71,17 @@
     <section>
         <div id="quotes">
             <div class="quote">
+                <i class="fa-sharp fa-solid fa-quote-left"></i>
                 <h1>It’s wonderful that the production of this soap supports the local community and that the ingredients are native to NZ.</h1>
                 <h2>- Fiona Morouco</h2>
             </div>   
             <div class="quote">
+                <i class="fa-sharp fa-solid fa-quote-left"></i>
                 <h1>I love discovering businesses founded by passionate individuals who are dedicated to minimising harm, respecting people and the planet and creating with care. Aotea embodies all of those attributes and entwines them with a sense of community and culture.</h1>
                 <h2>- Niccii Kugler</h2>
             </div>
             <div class="quote">
+                <i class="fa-sharp fa-solid fa-quote-left"></i>
                 <h1>A wonderful example of a company embracing it’s cultural and local community, spreading awareness, goodwill and social responsibility. Love the concept of tikanga māori and educating the consumer about the Maori ways.</h1>
                 <h2>- Sigourney Cantelo</h2>
             </div>
@@ -83,6 +90,7 @@
                 <h2>- K. Hansen (New Zealand)</h2>
             </div> -->
         </div>
+        <button><i class="fa-solid fa-circle"></i></button>
         <div id="middle_section">
                 <img src="assets/img/quote_section.webp">
                 <div class="three_columns">
@@ -118,7 +126,7 @@
             <div  id="article1" class="articles">
                 <img src="assets/img/article1.png">
                 <div class="articles_text">
-                    <h2>Kawakawa</h2>
+                    <h2><i class="fa-solid fa-circle"></i>Kawakawa</h2>
                     <h1>Kawakawa - Everything You Need To Know About This Amazing Native Plant</h1>
                     <p>Kawakawa (macropiper excelsum) is a herbaceous shrub with knobbly joints and branching stems native to New Zealand. It has large heart shaped leaves that are a dark green, and sometimes slightly...</p>
                     <a href="#">Read More</a>
@@ -126,7 +134,7 @@
             </div>
             <div id="article2" class="articles">
                 <div class="articles_text">
-                    <h2>Mānuka</h2>
+                    <h2><i class="fa-solid fa-circle"></i>Mānuka</h2>
                     <h1>The Difference Between MGO & UMF Mānuka Honey</h1>
                     <p>As one of the lead producers of high-quality Mānuka honey, we know that the terms MGO and UMF on jars of Mānuka honey puzzle a lot of consumers. In this post, we unveil why they are there, what t...</p>
                     <a href="#">Read More</a>
@@ -136,7 +144,7 @@
             <div  id="article3" class="articles">
                 <img src="assets/img/article3.png">
                 <div class="articles_text">
-                    <h2>Kawakawa</h2>
+                    <h2><i class="fa-solid fa-circle"></i>Kawakawa</h2>
                     <h1>How To Make Kawakawa Oil</h1>
                     <p>Kawakawa oil is a great oil with a lot of benefits, such as healing skin conditions, making digestive process run naturally, and sealing up wounds. Kawakawa oil is found naturally in the leaves of ...</p>
                     <a href="#">Read More</a>
@@ -148,7 +156,7 @@
         <image src="assets/img/about_image.webp"></image>
         <div id="location_section">
             <h1 id="line_height_h1">Our Concept Store</h1>
-            <h1>Commercial Bay</h1>
+            <h1 id="h1_border">Commercial Bay<i class="fa-solid fa-plus"></i></h1>
 
             <h2>7/21 Queen Street (Ground Floor) Auckland CBD Auckland 1010</h2>
             <p>hello@aotea.co</p>
@@ -159,55 +167,54 @@
     </section>
 
     <footer>
-        <section>
-            <div>
-                <p>A range of New Zealand made therapeutic products inspired by traditional Māori herbal remedies and supported by scientific research.</p>
-                <a  href="/index.html" > <img src="assets/img/aotea_logo.webp" viewBox="10 10 10 10" width="81px" height="25px"> </a><img src="assets/img/aotea_logo.webp" viewBox="10 10 10 10" width="81px" height="25px">
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="/shop.html">Shop</a> 
-                    </li>
-                    <li>
-                        <a>Search</a>
-                    </li>
-                    <li>
-                        <a>About</a>
-                    </li>
-                    <li>
-                        <a>Terms of Service</a>
-                    </li>
-                    <li>
-                        <a>Refund Policy</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <p>Stockists</p> 
-                    </li>
-                    <li>
-                        <p>Privacy</p>
-                    </li>
-                    <li>
-                        <p>FAQs</p>
-                    </li>
-                    <li>
-                        <p>Contact Us</p>
-                    </li>
-                    <!-- Images for social media -->
-                </ul>
-            </div>
-            <div>
-                <p>Subscribe to our journal to learn more about Tikanga Māori, Te Ao Māori and for special offers.</p>
+        <section id="footer_section">
+                        <div>
+                            <p>A range of New Zealand made therapeutic products inspired by traditional Māori herbal remedies and supported by scientific research.</p>
+                            <a  href="/index.html" > <img src="assets/img/aotea_logo.webp" viewBox="10 10 10 10" width="81px" height="25px"> </a>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="/shop.html">Shop</a> 
+                                </li>
+                                <li>
+                                    <a>Search</a>
+                                </li>
+                                <li>
+                                    <a>About</a>
+                                </li>
+                                <li>
+                                    <a>Terms of Service</a>
+                                </li>
+                                <li>
+                                    <a>Refund Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a>Stockists</a> 
+                                </li>
+                                <li>
+                                    <a>Privacy</a>
+                                </li>
+                                <li>
+                                    <a>FAQs</a>
+                                </li>
+                                <li>
+                                    <a>Contact Us</a>
+                                </li>
+                                <!-- Images for social media -->
+                            </ul>
+                            <h1><i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-pinterest-p"></i> <i class="fa-brands fa-youtube"></i></h1>
+                        </div>
+                        <div>
+                            <p>Subscribe to our journal to learn more about Tikanga Māori, Te Ao Māori and for special offers.</p>
 
-                <button>Subscribe</button>
-            </div>
-            <div>
-
-            </div>
+                            <button href="#">Subscribe</button>
+                        </div>
+                        <p id="copyright">Aotea 2022 All Rights Reserved / Copyright</p>
         </section>
     </footer>
         <script src="assets/js/main.js"></script>
