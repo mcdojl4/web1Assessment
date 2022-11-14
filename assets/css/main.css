@@ -318,4 +318,8 @@ a {
     margin-bottom: 7%;
 }
 
+/* Shop css */
 
+#header_section_shop {
+    border-bottom: 1px solid white;
+}
