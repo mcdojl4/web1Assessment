@@ -40,6 +40,7 @@ button {
     padding: 15px 10px 15px 60px; 
     margin: 0;
     padding-left: 15%;
+    overflow: hidden;
 }
 
 #header_section {
@@ -64,6 +65,10 @@ button {
 
 #header_section h1 {
     font-size: 16px;
+}
+
+#header_section a {
+    text-decoration: none;
 }
 
 #header_section button {
@@ -102,6 +107,19 @@ button {
     max-height: 933px;
 }
 
+#main_section i {
+    font-size: 14px;
+    margin-left: 60%;
+}
+
+#main_section #a_padding1 {
+    margin-left: 55%;
+}
+
+#main_section #a_padding2 {
+    margin-left: 58%;
+}
+
 #grid {
     display: grid;
     height: 732px;
@@ -117,6 +135,7 @@ button {
 
 #grid div a {
     padding-left: 50px;
+    text-decoration: none;
 }
 
 #shop_section {
@@ -132,11 +151,13 @@ button {
     margin: 0;
     padding: 10% 0 10% 30%;
     display: flex;
+    overflow: hidden;
 }
 
 #shop_section #right_h1{
     margin: 0;
     padding: 15% 0 15% 10%;
+    overflow: hidden;
 }
 
 #shop_section a {
@@ -397,6 +418,66 @@ button {
     padding-right: 3%;
 }
 
+@media (max-width: 1205px){
+    /* article_section css  */
+    #journal_div {
+        padding: 0 2% 5%;
+        width: 50%;
+    }
+
+    #article_section {
+        margin: 0 2%;
+        width: 90%;
+    }
+    
+    .articles {
+        display: flex;
+        padding-bottom: 8%;
+    }
+
+    .articles img {
+        max-width: 655px;
+    }
+    
+    #article1  img{
+        margin-right: 2%;
+    }
+    
+    #article2 img{
+        margin-left: 2%;
+    }
+    
+    #article3 img{
+        margin-right: 2%;
+    }
+    
+    .articles_text h1{
+        font-size: 22px;
+    }
+    
+    .articles_text h2, p	{
+        font-size: 13px;
+    }
+    
+    .articles_text i {
+        padding-right: 1%;
+    }
+
+    #two_columns img {
+        max-width: 650px;
+        max-height: 430px;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 980px){
+    /* 2 Column css and  */
+}
+
+@media (max-width: 760px){
+    /* One column  */
+}
+
 
 /* Shop css */
 
@@ -418,14 +499,22 @@ button {
 }
 
 #filter_flex {
-    padding: 0 25% 1% 9%;
+    padding: 0 20% 1% 9%;
     display: flex;
     border-bottom: 1px solid white;
 }
 
-#filter_list li {
-    list-style: none;
-    display: inline-block;
-    margin-left: 20%;
+#filter_flex p {
+    white-space: nowrap; 
+}
+
+#filter_flex button {
+    padding-left: 10%;
+}
+
+#gallery_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 20% 20%;
 }
 
