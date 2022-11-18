@@ -516,11 +516,37 @@ button {
     padding-left: 10%;
 }
 
+.container{
+    position: relative;
+    text-align: center;
+  }
+
+  .container a {
+    color: black
+  }
+
+  .container a:hover {
+    color: white;
+  }
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+  
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
 #gallery_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 20%);
+    grid-template-rows: repeat(4, 1fr);
     border-bottom: 1px solid white;
+    color: black;
 }
 
 #gallery_section div {
