@@ -10,4 +10,4 @@ Currently you can only navigate through the home and shop pages. In the shop pag
 Issues i currently have are the websites positions changing when the website is made smaller. 
 
 # Road map
-The current road map is finishing the general functions of the website to make it a functioning store. Then focus on getting the javascript on the home page correct.
+The current road map is finishing the general functions of the website to make it a functioning store. This includes making a filter that can filter through the products and the creating a shopping cart so they can use the main purpose of the website. Then focus on getting the javascript on the home page correct. 
