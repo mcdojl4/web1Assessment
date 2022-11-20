@@ -4,7 +4,7 @@ This repo contains my work that is an attempt to recode the https://aoteamade.co
 
 
 # How to use the project
-Currently you can only navigate through the home and shop pages. In the future i plan to have a filter feature to make it easier for the customers to filter what they want. Aswell as a shopping cart making it possible to functionally use the website. 
+Currently you can only navigate through the home and shop pages. In the shop page the store currently uses a fetch system using the unsplash api.
 
 # Known issues
 Issues i currently have are the websites positions changing when the website is made smaller. 
