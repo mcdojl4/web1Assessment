@@ -1,5 +1,6 @@
  * {
     box-sizing: border-box;
+    color: white;
  }
 body{
     margin:0;
@@ -13,12 +14,7 @@ svg{
 
 }
 
-a {
-    color: white;
-}
-
 button {
-    color: white;
     border: none;
     border: 0;
     background-color: black;
@@ -60,8 +56,21 @@ input {
     font-size: 20px;
 } 
 
+.dropBtn {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    padding-left: 40%;
+    background: #16211C;
+    overflow: none;
+}
+
+.dropBtn p {
+    padding-left: 15%;
+}
+
 #header_section #bars {
-    padding-left: 43%;
+    padding: 0;
+    margin-left: 43%;
     font-size: 25px;
 }
 
@@ -580,3 +589,37 @@ input {
 #shop_border {
     border-top: 1px solid white;
 }
+
+/* Menu button dropdown css */
+.dropdownContent {
+    display: none;
+    position: absolute;
+    overflow: none;
+    top: 25%;
+    left: 0;
+    background-color: #16211C;
+    width: 100%;
+    padding-top: 3%;
+    border-bottom: 1px solid white;
+}
+
+#anchors{
+    padding: 3% 0 0 50%;
+    padding-left: 50%;
+}
+
+#anchors a {
+    padding: 12px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    text-align: left;
+}
+
+.show {
+    display: block;
+    overflow-y: visible
+  }
+  /* End of menu dropdown */
