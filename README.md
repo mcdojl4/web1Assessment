@@ -7,4 +7,7 @@ This repo contains my work that is an attempt to recode the https://aoteamade.co
 Currently you can only navigate through the home and shop pages. In the future i plan to have a filter feature to make it easier for the customers to filter what they want. Aswell as a shopping cart making it possible to functionally use the website. 
 
 # Known issues
-Issues i currently have are the websites positions changing when the website is made smaller. Another is 
+Issues i currently have are the websites positions changing when the website is made smaller. 
+
+# Road map
+The current road map is finishing the general functions of the website to make it a functioning store. Then focus on getting the javascript on the home page correct.
