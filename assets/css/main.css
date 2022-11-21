@@ -1,7 +1,9 @@
+ /* sets the css for everything   */
  * {
     box-sizing: border-box;
     color: white;
  }
+
 body{
     margin:0;
     background: black;
@@ -9,9 +11,9 @@ body{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
+ /* Setting some standards for these specififc ones */
 svg{
     fill: white;
-
 }
 
 button {
@@ -26,6 +28,8 @@ input {
     margin-bottom: 4%;
     border-bottom: 1px solid white;
 }
+
+ /* For sale section css */
 
 #for_sale{
     margin: 0 0 40px 0;
@@ -46,6 +50,8 @@ input {
     overflow: hidden;
 }
 
+/* header section css  */
+
 #header_section {
     display: flex;
     padding: 10px 13% 20px 13%;
@@ -55,18 +61,6 @@ input {
     padding: 0 1% 0 1%;
     font-size: 20px;
 } 
-
-.dropBtn {
-    display: flex;
-    /* flex-wrap: nowrap; */
-    padding-left: 40%;
-    background: #16211C;
-    overflow: none;
-}
-
-.dropBtn p {
-    padding-left: 15%;
-}
 
 #header_section #bars {
     padding: 0;
@@ -95,7 +89,9 @@ input {
     border: 0;
     background-color: black;
 }
+ /* end of header section css  */
 
+/* start of nav section css  */
 #nav_section {
     border-bottom: 1px solid white;
     padding-bottom: 30px;
@@ -135,25 +131,29 @@ input {
 #main_section #a_padding2 {
     margin-left: 58%;
 }
+/* End of nav section css  */
 
-#grid {
+/* Grid for main section  */
+#mainGrid {
     display: grid;
     height: 732px;
     width: 25%;
     grid-template-rows: 100px 100px 100px 1fr;
 }
 
-#grid div {
+#mainGrid div {
     font-size: 20px;
     padding-top: 40px;
     border-bottom: 1px solid white;
 }
 
-#grid div a {
+#mainGrid div a {
     padding-left: 50px;
     text-decoration: none;
 }
+/* End of Grid for main section  */
 
+ /* Shop section css  */
 #shop_section {
     background: #16211C;
     padding-bottom: 100px;
@@ -205,13 +205,16 @@ input {
     display: flex;
     overflow: hidden;
 }
+/* End of shop section css  */
 
+/* Shop grid css */
 #shop_grid {
     display: grid;
     grid-template-columns: 60% 40%;
     padding-bottom: 50px;
 }
 
+/* css for right and left shop divs */
 #right_shop img{
     width: 100%;
     height: 70%;
@@ -227,7 +230,9 @@ input {
 #left_shop a {
     text-align: center;
 }
+/* end of css for shop divs */
 
+/* Quotes css and grid */
 #quotes {
     display: grid;
     justify-content: center;
@@ -255,7 +260,9 @@ input {
 .quote i {
     font-size: 25px;
 }
+/* end of quote grid and css */
 
+/* Middle section grid and css */
 #middle_section .three_columns {
     display: grid;
     height: 10%;
@@ -281,7 +288,9 @@ input {
     width: 100%;
     padding: 0 20% 0 20%;
 }
+/* End of Middle section grid and css */
 
+/* brand grid and css */
 #brand_section #four_column{
     display: grid;
     grid-template-columns: 15% 15% 15% 15% ;
@@ -291,13 +300,17 @@ input {
     padding-bottom: 15%;
     justify-content: center;
 }
+ /* grid with four columns and two rows */
 
 #four_column img {
     display: block;
     margin: auto auto auto auto;
     width: 70%;
 }
+/* End of brand grid and css */
 
+/* Journal css */
+/* Blurb that is at the end of brand section */
 #journal_div {
     text-align: left;
     padding: 0 40% 7% 21%;
@@ -317,12 +330,9 @@ input {
     font-size: 14px;
     line-height: 0;
 }
+/* end of journal css */
 
-#one_column {
-    max-width: 58%;
-    margin: 0 auto;
-}
-
+/* article section css */
 #article_section {
     width: 55%;
     margin: 0 21%;
@@ -333,12 +343,13 @@ input {
     padding-bottom: 12%;
 }
 
-#article1  img{
+#article1_3  img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     margin-right: 3%;
 }
+/* Sets the variables of image one and image two */
 
 #article2 img{
     width: 100%;
@@ -347,13 +358,7 @@ input {
     margin-left: 3%;
 }
 
-#article3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-right: 3%;
-}
-
+/* sets article texts to all the same */
 .articles_text h1{
     font-size: 22px;
 }
@@ -365,7 +370,9 @@ input {
 .articles_text i {
     padding-right: 2%;
 }
+ /* end of article section */
 
+ /* Start of two location section css */
 #two_columns {
     display: flex;
     border-bottom: 1px solid white;
@@ -411,7 +418,9 @@ input {
 #line_height_h1 {
     margin-bottom: 7%;
 }
+ /* End of two location section css */
 
+ /* footer section start  */
 #footer_section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -446,7 +455,9 @@ input {
 #footer_section i{
     padding-right: 3%;
 }
+ /* footer section end  */
 
+/* @media used for when the width of website reaches that size it applies the styles to the web page */
 @media (max-width: 1205px){
     /* article_section css  */
     #journal_div {
@@ -508,10 +519,8 @@ input {
 }
 
 
+/* Dropdown menus  */
 /* Shop css */
-
-
-
 #header_section_shop {
     border-bottom: 1px solid white;
 }
@@ -589,6 +598,7 @@ input {
 #shop_border {
     border-top: 1px solid white;
 }
+/* End of Shop css */
 
 /* Menu button dropdown css */
 .dropdownContent {
@@ -618,8 +628,26 @@ input {
     text-align: left;
 }
 
+.dropBtn {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    padding-left: 40%;
+    background: #16211C;
+    overflow: none;
+}
+
+.dropBtn p {
+    padding-left: 15%;
+}
+
 .show {
     display: block;
     overflow-y: visible
   }
-  /* End of menu dropdown */
+  /* End of menu dropdown css */
+
+  /* Search dropdown css */
+
+
+  /* End of Search dropdown css */
+

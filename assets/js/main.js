@@ -1,5 +1,6 @@
 const BASE_URL = "https://api.unsplash.com";
-let btn = document.querySelector(".dropBtn").addEventListener("click", myFunction);
+let menuBtn = document.querySelector(".menuBtn").addEventListener("click", menuDropdown);
+let searchBtn = document.querySelector(".searchBtn").addEventListener("click", searchDropdown)
 
 
 fetch(BASE_URL + '/search/photos/?query=skincare&client_id=xffONO9umdoAOkcfbV47hqsQT6Br98hnnkqytpNLDi4')
@@ -10,8 +11,11 @@ fetch(BASE_URL + '/search/photos/?query=skincare&client_id=xffONO9umdoAOkcfbV47h
           })
       });
       
-function myFunction() {
-    console.log("Cliclked")
+function menuDropdown() {
   document.getElementById("menuDropdown").classList.toggle("show");
 }
 
+function searchDropdown() {
+    console.log("Cliclked")
+  document.getElementById("searchDropdown").classList.toggle("show");
+}
