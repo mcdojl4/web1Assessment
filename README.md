@@ -7,7 +7,7 @@ This repo contains my work that is an attempt to recode the https://aoteamade.co
 Currently you can only navigate through the home and shop pages. In the shop page the store currently uses a fetch system using the unsplash api.
 
 # Known issues
-Issues i currently have are the websites positions changing when the website is made smaller. 
+Issues i currently have are the websites positions changing when the website is made smaller. Another bug is that currently the menu button is made alot larger than intended starting after the aotea SVG.
 
 # Road map
 The current road map is finishing the general functions of the website to make it a functioning store. This includes making a filter that can filter through the products and the creating a shopping cart so they can use the main purpose of the website. Then focus on getting the javascript on the home page correct. 
