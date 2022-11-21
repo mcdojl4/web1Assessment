@@ -4,7 +4,7 @@ This repo contains my work that is an attempt to recode the https://aoteamade.co
 
 
 # How to use the project
-Currently you can only navigate through the home and shop pages. In the shop page the store currently uses a fetch system using the unsplash api.
+Currently you can only navigate through the home and shop pages. In the shop page the store currently uses a fetch system using the unsplash api. The menu button drop down menu is working where you can navigate to the shop menu.
 
 # Known issues
 Issues i currently have are the websites positions changing when the website is made smaller. Another bug is that currently the menu button is made alot larger than intended starting after the aotea SVG.
