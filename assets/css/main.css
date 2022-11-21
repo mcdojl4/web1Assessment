@@ -1,8 +1,8 @@
  /* sets the css for everything   */
- * {
+* {
     box-sizing: border-box;
     color: white;
- }
+}
 
 body{
     margin:0;
@@ -575,6 +575,7 @@ input {
     right: 16px;
 }
 
+/* Sets the shops gallery section grid into 3 columns and 4 rows */
 #gallery_section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
